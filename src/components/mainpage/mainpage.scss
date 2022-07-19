@@ -1,0 +1,77 @@
+.mainpage{
+    background-color: 	#F5F5F5;
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+}
+.mpleft{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+.mpright{
+    flex:1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+    height: 50%;
+}
+
+.Highlight{
+    color: red;
+}
+.hnote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.mp-left-wrapper{
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.girl{
+    width: 100%;
+    height: 10  0%;
+    margin: 0;
+    object-fit: contain;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    width: 81%;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: white;
+    height: 100%;
+    width: 100%;
+}

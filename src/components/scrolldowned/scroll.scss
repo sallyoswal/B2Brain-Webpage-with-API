@@ -1,0 +1,140 @@
+.sd{
+    height: 100vh;
+    border-right: 2px solid ridge rgb(230,227,227);
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+}
+.sd-top{
+    height: 30vh;
+
+}
+.sd-title{
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    padding-top: 4%;
+}
+.brandlogo{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 92%;
+    justify-content: space-between;
+}
+.sd-bottom{
+    height: 90vh;
+    background-color: 	#F5F5F5;
+
+}
+.sd-card-one{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    top: 50px;
+    left: 70px;
+    background-color: white;
+    border-radius: 5px;
+    width: 40%;
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.sd-card-two{
+    position:absolute;
+    display: flex;
+    top: 90px;
+    left: 590px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.sd-card-left-one{
+    flex:1;
+    display: flex;
+    position: relative;
+    margin-left: 2%;
+    height: 15vh;
+    .quote{
+        color: pink;
+        margin-top: 0;
+        font-size: xxx-large;
+    }
+}
+
+.sd-card-content-one-right{
+    flex:4;
+
+    text-align: start;
+    margin-top: 0;
+    padding: 0%;
+    height: 15vh;
+    font-weight: bold;
+    .sd-card-one-mini{
+        margin-top: 1%;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    .commenticon{
+        display: flex;
+        margin-top: 2%;
+        width: 100px;
+        height: 20px;
+    }
+}
+
+.sd-card-left-two{
+    flex:1;
+    width: 380px;
+    display: flex;
+    position: relative;
+    margin-left: 6%;
+    margin-top: 6%;
+    height: 20vh;
+    .quote{
+        color: pink;
+        margin-top: 0;
+        font-size: xxx-large;
+    }
+}
+
+.sd-card-content-two-right{
+    flex:4;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    margin-top: 6%;
+    padding: 0%;
+    height: 20vh;
+    font-weight: bold;
+    .sd-card-two-mini{
+        margin-top: 1%;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    .commenticon{
+        display: flex;
+        margin-top: 2%;
+        width: 100px;
+        height: 20px;
+    }
+}
+.brandlogoicon{
+    width: 150px;
+    height: 50px;
+}
+.sd-bottom-title{
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    padding-top: 4%;
+}

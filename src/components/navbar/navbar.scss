@@ -1,0 +1,46 @@
+.navbar{
+    height:50px;
+    border-bottom:  rgb(231,228, 228);
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    display: flex;
+    font-size: 14px;
+    color: grey;
+
+    .wrapper{
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search{
+        height: 100%;
+        display: flex;
+        border: 0%;
+        padding-top: 0;
+        .apiresult{
+            background-color: #f5f5f5;
+            color: black;
+            text-align: start;
+            width: 1000px;
+            margin-top: 50px;
+            margin-left: 0;
+            margin-right: 0;
+            padding: 0;
+            height: 88vh;
+            position:relative
+        }
+    }
+    .searchbar{
+        width: 100%;
+        font-size: 18px;
+        border: none;
+        display: flex;
+       background-color: transparent;
+       outline: 0;
+       &::placeholder{
+        color: rgb(231,228, 228);
+        font-display: bold;
+       }
+    }
+}
